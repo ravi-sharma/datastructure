@@ -22,7 +22,7 @@ class Search:
                 self.POSITION = mid
                 return True
             else:
-                if list[mid] < number: 
+                if list[mid] < number:
                     lowest = mid + 1
                 else:
                     upper = mid - 1
@@ -30,9 +30,10 @@ class Search:
         return False
 
 
-list = [1, 2, 3, 4, 5, 8, 10]
+list = [1, 2, 3, 4, 5, 8, 10, 12, 13, 17, 19, 23, 25, 26, 28, 30]
 
-number = 18
+print(list)
+number = int(input('Enter number:'))
 
 object = Search()
 
