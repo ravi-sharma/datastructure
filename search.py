@@ -18,7 +18,7 @@ class Search:
         while lowest <= upper:
             mid = (lowest + upper) // 2  # find mid
 
-            if list[mid] == number:
+            if list[mid] == number:  # check if mid is equal number
                 self.POSITION = mid
                 return True
             else:
